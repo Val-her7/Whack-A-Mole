@@ -75,7 +75,7 @@ function clock() {
             endGame();
             
         }
-    }, 100);
+    }, 1000);
 }
 let idMole;
 
