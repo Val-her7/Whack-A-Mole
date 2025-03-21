@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(188, 108, 37);
+}
+
+.write {
+    max-width: 40ch;
+    padding: 1rem 1rem 0.5rem;
+    text-align: left;
+}
+
+.informations {
+    max-width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clock {
+    display: flex;
+    padding: 0.5rem 1rem 0.5rem;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.game {
+    border: solid 1px black;
+    max-width: 65%;
+    height: 65%;
+    margin: 15px auto 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(43, 132, 16);
+}
+
+.circle {
+    border: solid 1px black;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(88, 47, 14);
+}
+
+.mole-appear {
+    background-image: url("mole.png");
+    background-size: cover;
+}
+
+#start-game {
+    cursor: pointer;
+    width: 4rem;
+    height: 3rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.score {
+    text-align: center;
+}
+
+.endscreen {
+    background-color: rgb(188, 108, 37);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
